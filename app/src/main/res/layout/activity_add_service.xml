@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etServiceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Name" />
+
+    <Spinner
+        android:id="@+id/spCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etProviderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Provider Name"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etContactDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Details"
+        android:layout_marginTop="16dp" />
+
+    <Spinner
+        android:id="@+id/spCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnAddService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Service"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

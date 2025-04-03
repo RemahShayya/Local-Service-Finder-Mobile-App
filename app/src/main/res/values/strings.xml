@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Local Service Finder</string>
+    <string name="add_service">Add Service</string>
+    <string name="view_services">View Services</string>
+</resources>
